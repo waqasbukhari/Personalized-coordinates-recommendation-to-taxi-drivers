@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>temporal_taxi_demands</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="178c2069-6064-48e6-bbed-829659d03f36" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1232">
+          {"5a87fe1e-f40d-4e9e-9bb2-f84fda8d49be":{"roots":{"references":[{"attributes":{"formatter":{"id":"1024","type":"MercatorTickFormatter"},"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1022","type":"MercatorTicker"}},"id":"1021","type":"MercatorAxis"},{"attributes":{"below":[{"id":"1012","type":"MercatorAxis"}],"left":[{"id":"1021","type":"MercatorAxis"}],"renderers":[{"id":"1012","type":"MercatorAxis"},{"id":"1020","type":"Grid"},{"id":"1021","type":"MercatorAxis"},{"id":"1029","type":"Grid"},{"id":"1038","type":"BoxAnnotation"},{"id":"1046","type":"TileRenderer"},{"id":"1060","type":"Legend"},{"id":"1051","type":"GlyphRenderer"},{"id":"1065","type":"GlyphRenderer"}],"title":{"id":"1045","type":"Title"},"toolbar":{"id":"1036","type":"Toolbar"},"x_range":{"id":"1004","type":"DataRange1d"},"x_scale":{"id":"1008","type":"LinearScale"},"y_range":{"id":"1006","type":"DataRange1d"},"y_scale":{"id":"1010","type":"LinearScale"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1013","type":"MercatorTicker"}},"id":"1020","type":"Grid"},{"attributes":{"plot":null,"text":"Comparing Taxi demands at 08:00 and 19:00 Hours"},"id":"1045","type":"Title"},{"attributes":{},"id":"1008","type":"LinearScale"},{"attributes":{"tile_source":{"id":"1002","type":"WMTSTileSource"}},"id":"1046","type":"TileRenderer"},{"attributes":{"dimension":"lon"},"id":"1015","type":"MercatorTickFormatter"},{"attributes":{"callback":null},"id":"1006","type":"DataRange1d"},{"attributes":{},"id":"1074","type":"UnionRenderers"},{"attributes":{"callback":null},"id":"1004","type":"DataRange1d"},{"attributes":{},"id":"1088","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"field":"size","units":"screen"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1064","type":"Circle"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{"data_source":{"id":"1048","type":"ColumnDataSource"},"glyph":{"id":"1049","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1050","type":"Circle"},"selection_glyph":null,"view":{"id":"1052","type":"CDSView"}},"id":"1051","type":"GlyphRenderer"},{"attributes":{"dimension":"lon"},"id":"1013","type":"MercatorTicker"},{"attributes":{},"id":"1087","type":"UnionRenderers"},{"attributes":{"items":[{"id":"1061","type":"LegendItem"},{"id":"1076","type":"LegendItem"}],"location":"top_left","plot":{"id":"1003","subtype":"Figure","type":"Plot"}},"id":"1060","type":"Legend"},{"attributes":{"label":{"value":"Demand at 09:00"},"renderers":[{"id":"1051","type":"GlyphRenderer"}]},"id":"1061","type":"LegendItem"},{"attributes":{"callback":null,"data":{"size":{"__ndarray__":"6andsJhoIEBQY0ZhPFIAQBA/r7+9EzRAGvEXXY0qoz9Upy8ier7vP3EeXoi2cv0/eEF10RGOmT9FCvVC22AjQBrxF12NKpM/15HSRZbxrz8DnQBArJHRP2CcI0QhGiRAfha7GEr02T+/5KOpRjMMQPttz7jFU0lAFBzSFVXE0j+32vdNSKlQQJVq0jUrjes/Qs9GzWJmDEA9cymQDrVUQG+TSWNuT0hAYO1dtDD11z8Jda/10B0qQIxc6aoAK/I/skL1KTWxKUCfJBjiWe4YQAOdAECskdE/1HPM7KZgR0AtuUaU5u0ZQLOTL5pEjO0/cPh6IGiXVkDFEgFw7b7eP4kW9bc8wCRA","dtype":"float64","shape":[33]},"x":{"__ndarray__":"T5cDUsecYsHA58YrPJxiwTA4igWxm2LBoIhN3yWbYsEwOIoFsZtiwRHZELmammLB30ZAeFKdYsGBKdSSD5piwaCITd8lm2LB30ZAeFKdYsFPlwNSx5xiwd9GQHhSnWLBT5cDUsecYsEwOIoFsZtiwRHZELmammLB30ZAeFKdYsGgiE3fJZtiwTA4igWxm2LBwOfGKzycYsER2RC5mppiwYEp1JIPmmLBT5cDUsecYsGgiE3fJZtiwcDnxis8nGLBEdkQuZqaYsHA58YrPJxiwTA4igWxm2LBEdkQuZqaYsGgiE3fJZtiwaCITd8lm2LBoIhN3yWbYsHfRkB4Up1iwTA4igWxm2LB","dtype":"float64","shape":[33]},"y":{"__ndarray__":"bEYIewWdU0FsRgh7BZ1TQWxGCHsFnVNBZBvUyI+bU0FkG9TIj5tTQWd2lSUamlNBZBvUyI+bU0FndpUlGppTQWd2lSUamlNBbEYIewWdU0FndpUlGppTQYBeeetmoVNBgF5562ahU0GAXnnrZqFTQTfpMzx7nlNBzvVYDPGfU0HO9VgM8Z9TQc71WAzxn1NBzvVYDPGfU0HO9VgM8Z9TQc71WAzxn1NBzvVYDPGfU0GAXnnrZqFTQewVl9ncolNBgF5562ahU0E36TM8e55TQewVl9ncolNBbEYIewWdU0HsFZfZ3KJTQWxGCHsFnVNBN+kzPHueU0HsFZfZ3KJTQTfpMzx7nlNB","dtype":"float64","shape":[33]}},"selected":{"id":"1088","type":"Selection"},"selection_policy":{"id":"1087","type":"UnionRenderers"}},"id":"1062","type":"ColumnDataSource"},{"attributes":{},"id":"1035","type":"HelpTool"},{"attributes":{},"id":"1033","type":"SaveTool"},{"attributes":{},"id":"1034","type":"ResetTool"},{"attributes":{"callback":null,"data":{"size":{"__ndarray__":"KosylBUzMEA1BLIM3GLcP6FC74fJvfE/VnkNrEG6IEDpm2+qKl8xQDUEsgzcYvw/HGoNNaSqRECNxV37guUAQEtSRMwfneQ/W6RxAtQX8z/N7h59uYpDQHuiL5LRCKs/RofnGdPPTUDkSWpyDdNMQFyezYEjg0JAlhsmqKegpT8yWlK7aS9HQLCUHL59OKA/GRRZB8vmVED1Ku24gvUjQHv1fQAHiwVAsJQcvn04sD9JE+vpOy0WQKiQCqr9j0tAETXzSeEP7T81BLIM3GLMP2r2njiIkiFAhhxH4CioAUA1BLIM3GLcPw==","dtype":"float64","shape":[29]},"x":{"__ndarray__":"oIhN3yWbYsEwOIoFsZtiwU+XA1LHnGLB30ZAeFKdYsER2RC5mppiwTA4igWxm2LBMDiKBbGbYsHA58YrPJxiwTA4igWxm2LBwOfGKzycYsEwOIoFsZtiwU+XA1LHnGLBoIhN3yWbYsER2RC5mppiwRHZELmammLB30ZAeFKdYsGBKdSSD5piwd9GQHhSnWLBEdkQuZqaYsFPlwNSx5xiwcDnxis8nGLBMDiKBbGbYsGgiE3fJZtiwaCITd8lm2LBoIhN3yWbYsHA58YrPJxiwYEp1JIPmmLBEdkQuZqaYsFPlwNSx5xiwQ==","dtype":"float64","shape":[29]},"y":{"__ndarray__":"gF5562ahU0FkG9TIj5tTQYBeeetmoVNBgF5562ahU0GAXnnrZqFTQYBeeetmoVNBbEYIewWdU0E36TM8e55TQc71WAzxn1NBzvVYDPGfU0E36TM8e55TQc71WAzxn1NBN+kzPHueU0E36TM8e55TQWxGCHsFnVNBbEYIewWdU0HO9VgM8Z9TQewVl9ncolNBzvVYDPGfU0FsRgh7BZ1TQWxGCHsFnVNB7BWX2dyiU0HsFZfZ3KJTQc71WAzxn1NBbEYIewWdU0HsFZfZ3KJTQWd2lSUamlNBZ3aVJRqaU0FndpUlGppTQQ==","dtype":"float64","shape":[29]}},"selected":{"id":"1075","type":"Selection"},"selection_policy":{"id":"1074","type":"UnionRenderers"}},"id":"1048","type":"ColumnDataSource"},{"attributes":{"overlay":{"id":"1038","type":"BoxAnnotation"}},"id":"1032","type":"BoxZoomTool"},{"attributes":{},"id":"1031","type":"WheelZoomTool"},{"attributes":{},"id":"1030","type":"PanTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1030","type":"PanTool"},{"id":"1031","type":"WheelZoomTool"},{"id":"1032","type":"BoxZoomTool"},{"id":"1033","type":"SaveTool"},{"id":"1034","type":"ResetTool"},{"id":"1035","type":"HelpTool"}]},"id":"1036","type":"Toolbar"},{"attributes":{"attribution":"&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\"&gt;OpenStreetMap&lt;/a&gt; contributors,&amp;copy; &lt;a href=\"https://cartodb.com/attributions\"&gt;CartoDB&lt;/a&gt;","url":"https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"},"id":"1002","type":"WMTSTileSource"},{"attributes":{"formatter":{"id":"1015","type":"MercatorTickFormatter"},"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1013","type":"MercatorTicker"}},"id":"1012","type":"MercatorAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1038","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"1062","type":"ColumnDataSource"},"glyph":{"id":"1063","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1064","type":"Circle"},"selection_glyph":null,"view":{"id":"1066","type":"CDSView"}},"id":"1065","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"#FF0000"},"line_color":{"value":"#FF0000"},"size":{"field":"size","units":"screen"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1049","type":"Circle"},{"attributes":{},"id":"1075","type":"Selection"},{"attributes":{"source":{"id":"1062","type":"ColumnDataSource"}},"id":"1066","type":"CDSView"},{"attributes":{"dimension":1,"plot":{"id":"1003","subtype":"Figure","type":"Plot"},"ticker":{"id":"1022","type":"MercatorTicker"}},"id":"1029","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"field":"size","units":"screen"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1050","type":"Circle"},{"attributes":{"dimension":"lat"},"id":"1024","type":"MercatorTickFormatter"},{"attributes":{"label":{"value":"Demand at 19:00"},"renderers":[{"id":"1065","type":"GlyphRenderer"}]},"id":"1076","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"black"},"size":{"field":"size","units":"screen"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1063","type":"Circle"},{"attributes":{"source":{"id":"1048","type":"ColumnDataSource"}},"id":"1052","type":"CDSView"},{"attributes":{"dimension":"lat"},"id":"1022","type":"MercatorTicker"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"1.0.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1232').textContent;
+                  var render_items = [{"docid":"5a87fe1e-f40d-4e9e-9bb2-f84fda8d49be","roots":{"1003":"178c2069-6064-48e6-bbed-829659d03f36"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
